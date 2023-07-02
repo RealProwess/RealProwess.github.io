@@ -61,7 +61,7 @@ flex-wrap: wrap;
   list-style-type: none;
   text-align:justify;
   margin: 25px;
-  animation: slide 1.5s;
+ 
   letter-spacing: 1.5px;
   font-weight: bold;
   font-size: 25px;
@@ -137,14 +137,6 @@ font-weight: bolder;
   font-size: 18px; /* Change the font size */
 }
 
-@keyframes slide {
-  0% {
-    transform: translateX(-150px);
-  }
-  100% {
-    transform: translateY(0px); /* Adjust the distance cards fall */
-  }
-}
 
 
 
