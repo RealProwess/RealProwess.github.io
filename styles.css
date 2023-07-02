@@ -20,14 +20,14 @@ flex-wrap: wrap;
  
 }
 .contactios{
-  border-radius: 0px;
+  border-radius: 5px;
   box-shadow: 10px 125px 125px rgb(19, 19, 129);
   overflow: hidden;
   margin: 10px;
   
 }
 .contactios:hover{
-border-radius: 20px;
+border-radius: 5px;
 box-shadow: 10px 125px 125px rgb(19, 19, 129);
 overflow: hidden;
 margin: 10px;
@@ -37,7 +37,7 @@ margin: 10px;
   padding: 5px;
   background-color:rgb(170, 170, 245);
   border: none;
-  border-radius: 0px;
+  border-radius:5px;
   font-size: 18px;
   overflow: hidden;
   margin: 5px;
@@ -46,6 +46,9 @@ margin: 10px;
   color: #333;
  
   
+}
+.button:hover .contactios{
+  border-radius: 20px;
 }
 .button:hover{
   border-radius: 20px;
