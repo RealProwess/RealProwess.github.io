@@ -20,17 +20,24 @@ flex-wrap: wrap;
  
 }
 .contactios{
-  border-radius: 40px;
+  border-radius: 0px;
   box-shadow: 10px 125px 125px rgb(19, 19, 129);
   overflow: hidden;
   margin: 10px;
   
 }
+.contactios:hover{
+border-radius: 20px;
+box-shadow: 10px 125px 125px rgb(19, 19, 129);
+overflow: hidden;
+margin: 10px;
+
+}
 .button {
   padding: 5px;
   background-color:rgb(170, 170, 245);
   border: none;
-  border-radius: 50px;
+  border-radius: 0px;
   font-size: 18px;
   overflow: hidden;
   margin: 5px;
@@ -41,7 +48,8 @@ flex-wrap: wrap;
   
 }
 .button:hover{
-  border-radius: 0px;
+  border-radius: 20px;
+  background-color:black ;
 }
 .background-image .listos {
   display: flex;
@@ -61,7 +69,7 @@ flex-wrap: wrap;
   list-style-type: none;
   text-align:justify;
   margin: 25px;
- 
+
   letter-spacing: 1.5px;
   font-weight: bold;
   font-size: 25px;
@@ -136,6 +144,7 @@ font-weight: bolder;
   font-family:'Oswald' ; /* Change the font family */
   font-size: 18px; /* Change the font size */
 }
+
 
 
 
@@ -377,6 +386,6 @@ position: absolute;
 
 }
 h1{
-  font-size:50px;
+  font-size: 50px;
 }
 }
