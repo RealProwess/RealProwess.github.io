@@ -372,21 +372,31 @@ color:yellow;
   display: none;
  }
 .container{
-  width: 120%;
-}
-#container1{
   width: 100%;
 }
+
 .contactios img{
   width: 360px; /* Set the maximum width to 360 pixels */
   height: auto; /* Maintain aspect ratio */
   margin-right: -50px;
+ 
 }
 .conto{
-  transform: scale(0.8);
+  transform: scale(0.5);
 position: absolute;
- left: -100px;
+ left: -125px;
+ top: -180px;
 
+
+}
+.logo{
+ width: 300px;
+}
+.button{
+  margin: 30px;
+}
+.contactios{
+  margin: 20px;
 }
 h1{
   font-size: 50px;
